@@ -3,7 +3,7 @@ import User from '../models/User.js'
 import Product from '../models/Product.js'
 import Post from '../models/Post.js'
 import Message from '../models/Message.js'
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs'
 const router = express.Router()
 
 //register
